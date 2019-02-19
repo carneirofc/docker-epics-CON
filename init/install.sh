@@ -6,6 +6,5 @@
 /bin/bash /root/init/synApps.sh
 /bin/bash /root/init/streamDevice.sh
 /bin/bash /root/init/sequencer.sh
-/bin/bash /root/init/pvGateway.sh
 /bin/bash /root/init/streamIoc.sh
 /bin/bash /root/init/python.sh

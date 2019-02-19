@@ -10,7 +10,7 @@ rm asyn4-33.tar.gz
 sed -i -e '3,4s/^/#/' -e '8s/^/#/' -e '11s/^/#/' -e '14cEPICS_BASE='${EPICS_BASE} asyn4-33/configure/RELEASE
 cat  asyn4-33/configure/RELEASE
 cd asyn4-33
-make -j ${MAKE_JOBS}
- 
+make
+
 cd ..
-tree -d 
+tree -d

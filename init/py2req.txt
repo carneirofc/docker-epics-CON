@@ -1,2 +1,4 @@
-pyepics
-pcaspy
+pandas==0.23.4
+pcaspy==0.7.2
+pyepics==3.3.2
+xlrd==1.2.0

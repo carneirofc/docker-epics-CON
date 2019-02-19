@@ -9,7 +9,7 @@ tar -xvzf base-3.15.5.tar.gz
 rm base-3.15.5.tar.gz
 mv base-3.15.5 base
 cd base
-make -j ${MAKE_JOBS}
+make
 
 cd ..
-tree -d 
+tree -d

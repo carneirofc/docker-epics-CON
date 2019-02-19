@@ -1,7 +1,8 @@
 #!/bin/bash
 # Basic Tools
 apt-get -y install \
-build-essential  git \
+build-essential ant gcc g++ libreadline-dev make perl tar \
+xmlstarlet wget nano git \
 openssh-server procserv socat \
 unrar-free apt-utils \
 wget tree nano htop \
